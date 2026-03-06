@@ -10,5 +10,6 @@ $funcionarios[2] = array('José Salgado', 3000,300);
 
 for ($i = 0; $i < 3; $i++){
     $nome = $funcionarios[$i] [0];
-    $descontos = calcularDescontos($funcionarios[$i] [1], $funcionarios[$i] [2])
+    $descontos = calcularDescontos($funcionarios[$i] [1], $funcionarios[$i] [2]);
+    echo "O Valor do desconto de $nome é de R$ $descontos. <br>"
 }
