@@ -10,8 +10,8 @@ $mariaPrevidencia = 200;
 $mariaNome = 'Maria Rute';
 $mariaDescontos = number_format($joaoSalario*0.25 + $joaoPrevidencia, 2, ',', '.');
 
-$joseSalario = 2000;
-$josePrevidencia = 200;
+$joseSalario = 3000;
+$josePrevidencia = 300;
 $joseNome = 'José Salgado';
 $joseDescontos = number_format($joaoSalario*0.25 + $joaoPrevidencia, 2, ',', '.');
 
